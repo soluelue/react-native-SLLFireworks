@@ -66,7 +66,7 @@ function App(): JSX.Element {
     </View>);
   }
 
-  const fireworksImageView=()=>{
+  /*const fireworksImageView=()=>{
     return(<SLLFireworks
       ref={fireworksRef}
       positionX={WIN_WIDTH/2}
@@ -129,13 +129,13 @@ function App(): JSX.Element {
         angleType={'random'}
       />
     );
-  }
+  }*/
 
   return(<SafeAreaView style={backgroundStyle}>
       <View style={styles.centerCircleView} />
       {/*{fireworksImageView()}*/}
       {/*{fireworksCircleView()}*/}
-      {fireworksMixView()}
+      {/*{fireworksMixView()}*/}
       {buttonView()}
 
   </SafeAreaView>)
