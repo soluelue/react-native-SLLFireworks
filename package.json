@@ -1,7 +1,7 @@
 {
   "name": "@soluelue/react-native-fireworks",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,11 +9,15 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.71.8",
     "react-native-reanimated": "^3.1.0"
   },
+
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
@@ -45,7 +49,7 @@
     "react natiave fireworks",
     "react native tada"
   ],
-  "author": "Jinsol Lee",
+  "author": "Jinsol Lee <soluelue.developer@gmail.com> (https://www.linkedin.com/in/진솔-이-76a337261)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/soluelue/react-native-fireworks/issues"

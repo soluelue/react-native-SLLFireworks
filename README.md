@@ -75,6 +75,11 @@ npm i react-native-reanimated
 
 ---------
 ## Circle Type
+
+
+<img src="./circle_type.gif" width="50%" height="50%"/>
+
+
 ```
 <SLLFireworks
         ref={fireworksRef}
@@ -94,7 +99,15 @@ npm i react-native-reanimated
         angleType={'random'}
       />
 ```
+
 ## Image Type
+
+
+<img src="./image_type.gif" width="50%" height="50%" />
+
+
+<img src="./image_type_02.gif" width="50%" height="50%" />
+
 ```
 <SLLFireworks
       ref={fireworksRef}
@@ -116,6 +129,9 @@ npm i react-native-reanimated
 ```
 
 ## Local Image, Server Image Mix Type
+
+<img src="./mix_type.gif" width="250" />
+
 ```
 <SLLFireworks
         ref={fireworksRef}
